@@ -1,0 +1,394 @@
+/* Sintaxis de css */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;    
+}
+
+header{
+    
+    display: flex;
+    flex-flow: column nowrap; 
+
+}
+.nombre_Pagina{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.logo{
+    flex: 1 1 auto;
+    width: 200px;
+    text-decoration: none;
+    color: #949baa;
+    font-family: 'Bogart', sans-serif;
+    font-size: 60px;
+}
+div h2 {
+    font-size: 30px;
+    text-decoration: none;
+    color: #949baa;
+    font-family: 'Bogart', sans-serif;
+}
+.nombre_pagina{
+    flex: 2 1 auto;
+    font-size: 40px;
+    color: #f1f2f5;
+        
+    }
+
+.div_Logo{
+    background-color: aliceblue;
+}
+.nombre_pagina-div{
+    background-color: bisque;
+}
+.barra_Nav{
+    display: flex;
+    justify-content: center;
+    
+}
+.barra__Navegacion {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+        
+}
+.cabecera__lista__link{
+    margin: 30px;
+    list-style: none;
+}
+.barra__Navegacion li:hover{
+    transform: scale(1.5);
+}
+.barra__Navegacion li{
+    transition: transform 1s; background-color: 1s;
+    list-style: none;
+}
+.cabecera__lista__link {
+    text-decoration: none;
+    color: #949baa;
+    font-size: 24px;
+    position: relative;
+    padding: 10px;
+}
+main{
+    
+    display: grid;
+    height: 80vh;
+}
+.main_Quienes-somos{
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: auto;
+
+}
+.article_Quienes-S{
+    text-align: center;
+    border: 1px;
+    grid-column: 1/2;
+    margin: auto;
+}
+.image_quienes{
+    height: 200px;
+    width: 280px;
+
+}
+.articulos{
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px ;
+   
+}
+.articulos_Galeria{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px ;
+    align-items: center;
+  
+}
+.servicio_Fotgorafia{
+    height: 200px;
+    width: 280px;
+}
+.main_Servicios{
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: auto;
+}
+.article_Servicios{
+    text-align: center;
+    border: 1px;
+    grid-column: 1/2;
+    margin: auto;
+}
+.main_Book{
+    display: grid;
+    grid-template-columns: 0 repeat(4, 1fr);
+    grid-template-rows: 0 repeat(2, 1fr) repeat(2, 0);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+}
+.image_Book{
+    height: 220px;
+    width: 190px;
+}
+.image_1{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.image_2{
+    grid-area: 2 / 3 / 3 / 4;
+}
+.image_3{
+    grid-area: 2 / 4 / 3 / 5;
+}
+.image_4{
+    grid-area: 2 / 5 / 3 / 6;
+}
+.image_5{
+    grid-area: 3 / 2 / 4 / 3;
+}
+.image_6{
+    grid-area: 3 / 3 / 4 / 4;
+}.image_7{
+    grid-area: 3 / 4 / 4 / 5;
+}.image_8{
+    grid-area: 3 / 5 / 4 / 6;
+}
+
+
+
+
+
+
+
+
+
+
+.article_1{
+    text-align: center;
+    border: 1px;
+    grid-column: 1/2;
+    margin: auto;
+}
+
+.article_2{
+    text-align: center;
+    border: 1px;
+    grid-column: 2/3;
+    margin: auto;
+}
+.p_Index{
+    text-align: center;
+}
+.article_galeria_1{
+    text-align: center;
+    border: 1px;
+    grid-column: 1/2;
+    margin: auto;
+}
+.article_galeria_2{
+    text-align: center;
+    border: 1px;
+    grid-column: 2/3;
+    margin: auto;
+}
+.article_galeria_3{
+    text-align: center;
+    border: 1px;
+    grid-column: 3/4;
+    margin: auto;
+}
+.article_galeria_4{
+    text-align: center;
+    border: 1px;
+    grid-column: 4/5;
+    margin: auto;
+}
+
+footer{
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 10vh;
+}
+
+
+.barra_Footer{
+    display: flex;
+    justify-content: center;
+    
+}
+.barra__Navegacion-footer{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.pie__lista__link{
+    margin: 3rem;
+    
+}
+.barra__Navegacion-footer li{
+    list-style: none;
+}
+
+.padre {
+    background-image: url("./image/Home_page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.image_Galeria{
+    height: 220px;
+    width: 220px;
+}
+
+.imagen_Index{
+    height: 220px;
+    width: 220px;
+}
+.link_Social img {
+    height: 2rem;
+}
+@media (max-width: 950px){
+    .padre{
+        grid-template-areas: 
+        "logo"
+        "nombre_pagina"
+        "barra_Nav"
+        "article_1"
+        "article_2"
+        "barra_Footer";
+    }
+    .imagen_Index{
+        height: 150px;
+        width: 150px;
+    }
+    
+    
+    header{
+        height: 30vh;
+    }
+   
+    footer{
+        height: 10vh;
+    }
+    .barra__Navegacion{
+        height: 10vh;
+    }
+ 
+    .link_Social img {
+        height: 1rem;
+    }
+    .pie__lista__link{
+        margin: 2rem;
+    }
+    .articulos{
+        grid-template-columns: 1fr 0 0fr repeat(2, 0);
+        grid-template-rows: repeat(2, 1fr) repeat(3, 0);
+
+    }
+    .article_2{
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+    
+    .articulos_Galeria{
+        display: grid;
+    grid-template-columns: 1fr repeat(3, 0) 1fr;
+    grid-template-rows: repeat(3, 0) repeat(2, 01fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;  
+    }
+    .article_galeria_1{
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    .article_galeria_2{
+        grid-area: 4 / 5 / 5 / 6;;
+    }
+    .article_galeria_3{
+        grid-area: 5 / 1 / 6 / 2;
+    }
+    .article_galeria_4{
+        grid-area: 5 / 5 / 6 / 6;
+    }
+    .image_Galeria{
+        height: 110px;
+        width: 110px;
+    }
+    
+    .servicio_Fotgorafia{
+        height: 110px;
+        width: 150px;
+    }
+    .cabecera__lista__link {
+        font-size: 16px;
+        margin: auto;
+       
+    }
+    .nombre_pagina{
+        font-size: 30px;
+        display: grid;
+       font-size: 24px;
+            
+    }
+    .logo{
+        width: 200px;
+        font-size: 30px;
+    }
+    .main_Book{
+        
+            display: grid;
+            grid-template-columns: 0 repeat(2, 1fr) repeat(2, 0);
+            grid-template-rows: 0 repeat(4, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+    }
+    .image_1{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .image_2{
+        grid-area: 2 / 3 / 3 / 4;
+    }
+    .image_3{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .image_4{
+        grid-area: 3 / 3 / 4 / 4;
+    }
+    .image_5{
+        grid-area: 4 / 2 / 5 / 3;
+    }
+    .image_6{
+        grid-area: 4 / 3 / 5 / 4;
+    }.image_7{
+        grid-area: 5 / 2 / 6 / 3;
+    }.image_8{
+        grid-area: 5 / 3 / 6 / 4;
+    }
+    .image_Book{
+        height: 150px;
+        width: 130px;
+    }
+}
