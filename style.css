@@ -12,7 +12,8 @@
 header{
     
     display: flex;
-    flex-flow: column nowrap; 
+    flex-flow: column nowrap;
+    height: 30vh; 
 
 }
 .nombre_Pagina{
@@ -38,7 +39,7 @@ div h2 {
     font-size: 40px;
     color: #f1f2f5;
         
-    }
+}
 
 .div_Logo{
     background-color: aliceblue;
@@ -54,11 +55,11 @@ div h2 {
 .barra__Navegacion {
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-flow: wrap;
         
 }
 .cabecera__lista__link{
-    margin: 30px;
+    margin: 1vw;
     list-style: none;
 }
 .barra__Navegacion li:hover{
@@ -68,6 +69,14 @@ div h2 {
     transition: transform 1s; background-color: 1s;
     list-style: none;
 }
+.barra__Navegacion-footer li :hover{ 
+    transform: scale(1.5);
+}
+.barra__Navegacion-footer li{
+    transition: transform 1s; background-color: 1s;
+    list-style: none;
+}
+
 .cabecera__lista__link {
     text-decoration: none;
     color: #949baa;
@@ -76,16 +85,14 @@ div h2 {
     padding: 10px;
 }
 main{
-    
     display: grid;
-    height: 80vh;
+    height: 75vh;
 }
 .main_Quienes-somos{
     display: grid;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin: auto;
-
 }
 .article_Quienes-S{
     text-align: center;
@@ -96,7 +103,6 @@ main{
 .image_quienes{
     height: 200px;
     width: 280px;
-
 }
 .articulos{
     display: grid;
@@ -106,7 +112,7 @@ main{
 }
 .articulos_Galeria{
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(4, auto);
     grid-column-gap: 0px;
     grid-row-gap: 0px ;
     align-items: center;
@@ -127,6 +133,8 @@ main{
     border: 1px;
     grid-column: 1/2;
     margin: auto;
+    font-size: large;
+    color: #949baa;
 }
 .main_Book{
     display: grid;
@@ -134,7 +142,8 @@ main{
     grid-template-rows: 0 repeat(2, 1fr) repeat(2, 0);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 .image_Book{
     height: 220px;
@@ -162,23 +171,50 @@ main{
 }.image_8{
     grid-area: 3 / 5 / 4 / 6;
 }
+.image_Casmiento{
+    height: 220px;
+    width: 190px;
+}
 
-
-
-
-
-
-
-
-
-
+.articulos_Casamiento{
+    display: grid;
+    grid-template-columns: 0 repeat(4, 1fr);
+    grid-template-rows: 0 repeat(2, 1fr) repeat(2, 0);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-items: center;
+}
+.image_Casmiento_1{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.image_Casmiento_2{
+    grid-area: 2 / 3 / 3 / 4;
+}
+.image_Casmiento_3{
+    grid-area: 2 / 4 / 3 / 5;
+}
+.image_Casmiento_4{
+    grid-area: 2 / 5 / 3 / 6;
+}
+.image_Casmiento_5{
+    grid-area: 3 / 2 / 4 / 3;
+}
+.image_Casmiento_6{
+    grid-area: 3 / 3 / 4 / 4;
+}
+.image_Casmiento_7{
+    grid-area: 3 / 4 / 4 / 5;
+}
+.image_Casmiento_8{
+    grid-area: 3 / 5 / 4 / 6;
+}
 .article_1{
     text-align: center;
     border: 1px;
     grid-column: 1/2;
     margin: auto;
 }
-
 .article_2{
     text-align: center;
     border: 1px;
@@ -187,6 +223,10 @@ main{
 }
 .p_Index{
     text-align: center;
+    text-decoration: none;
+    color: #adb1bb;
+    font-size: 20px;
+    
 }
 .article_galeria_1{
     text-align: center;
@@ -212,6 +252,15 @@ main{
     grid-column: 4/5;
     margin: auto;
 }
+.p_galeria{
+    text-decoration: none;
+    color: #949baa;
+    font-size: 24px;
+    list-style: none;
+}
+.link_Galeria{
+    text-decoration: none;
+}
 
 footer{
     
@@ -229,8 +278,6 @@ footer{
 }
 .barra__Navegacion-footer{
     display: flex;
-    flex-flow: row wrap;
-    
 }
 .pie__lista__link{
     margin: 3rem;
@@ -246,32 +293,64 @@ footer{
     background-position: center;
     background-color: cadetblue;
     background-repeat: no-repeat;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.main_Comentario{
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    justify-content:center;
+}
+.comentario {
+    resize:none;
+}
+.main_Cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .image_Galeria{
-    height: 220px;
-    width: 220px;
+    height: 240px;
+    width: 240px;
 }
 
 .imagen_Index{
-    height: 220px;
-    width: 220px;
+    
+    width: 40vw;
 }
+.autor{
+    text-decoration: none;
+    text-align: end;
+    color: #b3b7c0;
+    font-size: 18px;
+    font-style: italic;
+}
+.article_Quienes-S{
+    width: 320px;
+    padding: 10px;
+    margin: 0px;
+    
+}
+.texto{
+    color: #bdc1ca;
+    font-size: 20px;
+}
+.nombre_Apellido{
+    color: #bdc1ca;
+    font-size: 20px;
+}
+.email_label{
+    color: #bdc1ca;
+    font-size: 20px;
+}
+.comentario_Label{
+    color: #bdc1ca;
+    font-size: 20px;
+}
+
 .link_Social img {
     height: 2rem;
 }
+
 @media (max-width: 950px){
     .padre{
         grid-template-areas: 
@@ -283,17 +362,18 @@ footer{
         "barra_Footer";
     }
     .imagen_Index{
-        height: 150px;
-        width: 150px;
+        
+        width: 20vh;
     }
     
     
     header{
-        height: 30vh;
+        height: 20vh;
     }
    
     footer{
         height: 10vh;
+        margin-top: 10px;
     }
     .barra__Navegacion{
         height: 10vh;
@@ -316,10 +396,10 @@ footer{
     
     .articulos_Galeria{
         display: grid;
-    grid-template-columns: 1fr repeat(3, 0) 1fr;
-    grid-template-rows: repeat(3, 0) repeat(2, 01fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;  
+        grid-template-columns: 1fr repeat(3, 0) 1fr;
+        grid-template-rows: repeat(3, 0) repeat(2, 01fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;  
     }
     .article_galeria_1{
         grid-area: 4 / 1 / 5 / 2;
@@ -334,13 +414,13 @@ footer{
         grid-area: 5 / 5 / 6 / 6;
     }
     .image_Galeria{
-        height: 110px;
-        width: 110px;
+        height: 220px;
+        width: 220px;
     }
     
     .servicio_Fotgorafia{
-        height: 110px;
-        width: 150px;
+        height: 180px;
+        width: 220px;
     }
     .cabecera__lista__link {
         font-size: 16px;
@@ -349,46 +429,105 @@ footer{
     }
     .nombre_pagina{
         font-size: 30px;
-        display: grid;
-       font-size: 24px;
+       
             
     }
     .logo{
         width: 200px;
         font-size: 30px;
+        justify-content: center;
+        display: none;
     }
     .main_Book{
-        
-            display: grid;
-            grid-template-columns: 0 repeat(2, 1fr) repeat(2, 0);
-            grid-template-rows: 0 repeat(4, 1fr);
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
     }
     .image_1{
-        grid-area: 2 / 2 / 3 / 3;
+        grid-area: 1 / 1 / 2 / 2;
     }
     .image_2{
-        grid-area: 2 / 3 / 3 / 4;
+        grid-area: 1 / 2 / 2 / 3;
     }
     .image_3{
-        grid-area: 3 / 2 / 4 / 3;
+        grid-area: 2 / 1 / 3 / 2;
     }
     .image_4{
-        grid-area: 3 / 3 / 4 / 4;
+        grid-area: 2 / 2 / 3 / 3;
     }
     .image_5{
-        grid-area: 4 / 2 / 5 / 3;
+        grid-area: 3 / 1 / 4 / 2;
     }
     .image_6{
-        grid-area: 4 / 3 / 5 / 4;
+        grid-area:  3 / 2 / 4 / 3;
     }.image_7{
-        grid-area: 5 / 2 / 6 / 3;
+        display: none;
     }.image_8{
-        grid-area: 5 / 3 / 6 / 4;
+        display: none;
     }
     .image_Book{
         height: 150px;
         width: 130px;
+    }
+    .articulos_Casamiento{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .image_Casmiento_1{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .image_Casmiento_2{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    .image_Casmiento_3{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .image_Casmiento_4{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .image_Casmiento_5{
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .image_Casmiento_6{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .image_Casmiento_7{
+        display: none;
+    }
+    .image_Casmiento_8{
+        display: none;
+    }
+    .image_Casmiento {
+        height: 150px;
+        width: 150px;
+    }
+    main{
+        display: grid;
+        height: 90vh;
+    }
+    .barra_Nav{
+        margin-bottom: 10px;
+    }
+    .nombre_pagina{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    
+    
+
+}
+
+@media (max-width: 425px){
+    .texto {
+        font-size: 16px;
+    }
+    header{
+        height: 35vh;
     }
 }
