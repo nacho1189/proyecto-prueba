@@ -62,19 +62,31 @@ div h2 {
     margin: 1vw;
     list-style: none;
 }
+.articulos_Galeria article:hover{
+    transform: scale(1.1);
+}
+.articulos_Galeria article{
+    transition: transform 1s; background-color: 1s;
+}
 .barra__Navegacion li:hover{
     transform: scale(1.5);
+
 }
 .barra__Navegacion li{
     transition: transform 1s; background-color: 1s;
     list-style: none;
+    
 }
 .barra__Navegacion-footer li :hover{ 
     transform: scale(1.5);
+   
+    
 }
 .barra__Navegacion-footer li{
     transition: transform 1s; background-color: 1s;
-    list-style: none;
+    list-style: none;  
+    background-image:linear-gradient(rgb(83, 83, 161),#0999); 
+    
 }
 
 .cabecera__lista__link {
@@ -112,15 +124,28 @@ main{
 }
 .articulos_Galeria{
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     grid-column-gap: 0px;
-    grid-row-gap: 0px ;
+    grid-row-gap: 0px;
     align-items: center;
   
 }
+.article_galeria_1{
+    grid-area: 1 / 1 / 2 / 2; 
+}
+.article_galeria_2{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.article_galeria_3{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.article_galeria_4{
+    grid-area: 1 / 4 / 2 / 5;
+}
 .servicio_Fotgorafia{
-    height: 200px;
-    width: 280px;
+    height: 180px;
+    width: 260px;
 }
 .main_Servicios{
     display: grid;
@@ -314,8 +339,9 @@ footer{
 }
 
 .imagen_Index{
+    height: 240px;
+    width: 240px;
     
-    width: 40vw;
 }
 .autor{
     text-decoration: none;
@@ -362,18 +388,15 @@ footer{
         "barra_Footer";
     }
     .imagen_Index{
-        
-        width: 20vh;
+        height: 240px;
+        width: 240px;
     }
-    
-    
     header{
         height: 20vh;
     }
-   
     footer{
         height: 10vh;
-        margin-top: 10px;
+        margin-top: 15vh;
     }
     .barra__Navegacion{
         height: 10vh;
@@ -388,7 +411,6 @@ footer{
     .articulos{
         grid-template-columns: 1fr 0 0fr repeat(2, 0);
         grid-template-rows: repeat(2, 1fr) repeat(3, 0);
-
     }
     .article_2{
         grid-area: 2 / 1 / 3 / 2; 
@@ -396,26 +418,26 @@ footer{
     
     .articulos_Galeria{
         display: grid;
-        grid-template-columns: 1fr repeat(3, 0) 1fr;
-        grid-template-rows: repeat(3, 0) repeat(2, 01fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 0px;  
+        grid-row-gap: 0px;
     }
     .article_galeria_1{
-        grid-area: 4 / 1 / 5 / 2;
+        grid-area: 1 / 1 / 2 / 2;
     }
     .article_galeria_2{
-        grid-area: 4 / 5 / 5 / 6;;
+        grid-area: 1 / 2 / 2 / 3;
     }
     .article_galeria_3{
-        grid-area: 5 / 1 / 6 / 2;
+        grid-area: 2 / 1 / 3 / 2;
     }
     .article_galeria_4{
-        grid-area: 5 / 5 / 6 / 6;
+        grid-area: 2 / 2 / 3 / 3;
     }
     .image_Galeria{
-        height: 220px;
-        width: 220px;
+        height: 180px;
+        width: 180px;
     }
     
     .servicio_Fotgorafia{
@@ -508,7 +530,7 @@ footer{
     }
     main{
         display: grid;
-        height: 90vh;
+        height: 110vh;
     }
     .barra_Nav{
         margin-bottom: 10px;
@@ -522,12 +544,58 @@ footer{
     
 
 }
-
 @media (max-width: 425px){
     .texto {
         font-size: 16px;
     }
     header{
         height: 35vh;
+    }
+    .articulos_Casamiento{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .image_Casmiento_1{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .image_Casmiento_2{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .image_Casmiento_3{
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .image_Casmiento_4{
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    .image_Casmiento_5{
+        display: none;
+    }
+    .image_Casmiento_6{
+        display: none;
+    }
+    .articulos_Galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;;  
+    }
+    .article_galeria_1{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .article_galeria_2{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .article_galeria_3{
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .article_galeria_4{
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    .p_galeria{
+        font-size: 14px
     }
 }
