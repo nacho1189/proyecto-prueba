@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="./image/images.jpg">
-        <link rel="stylesheet" href="style.css">
-        <title>Gonzalo Vila Fotografías</title>
-    </head>
-    <body class="body_Index">
-        <div class="padre">
-            <header class="heder">
-                <div class="nombre_Pagina">
-                    <a href="#" class="logo">
-                        <h1 class="logo">GV</h1>
-                        <h2 class="foto">Fotgrafías </h2>
-                    </a>               
-                    <h1 class="nombre_pagina"> Gonzalo Vila Fotografías</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Bootras, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+     crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Gonzalo Vila Fotografías</title>
+</head>
+<body>
+    <header class="heder">
+        <nav class="navbar navbar-expand-lg navbar-light bg-lignt">
+            <div class="container-fluid">
+              <div class="nombre_Pagina">
+                <a class="navbar-brand logo" href="#">
+                  <h1 class="logo">GV</h1>
+                  <h2 class="foto">Fotgrafías </h2>
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+            aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span> 
+            </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav"> 
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="Paginas/galeria.html">Galeria</a>
+                  <a class="nav-link" href="Paginas/quienes-somo.html"> Quienes somos</a>
+                  <a class="nav-link" href="Paginas/servicios.html"> Lista de Servicios</a>
+                  <a class="nav-link" href="Paginas/contacto.html"> Contacto</a>
                 </div>
-                <nav class="barra_Nav">
-                    <ul class="barra__Navegacion">
-                        <li>
-                            <a href="#" class="cabecera__lista__link home"> Home </a>    
-                        </li>
-                        <li>
-                            <a href="./Paginas/galeria.html" class="cabecera__lista__link galeria"> Galeria </a>                                                    
-                        </li>
-                        <li>
-                            <a
-                                href="./Paginas/quienes-somo.html" class="cabecera__lista__link quienes_Somos"> Quienes somos </a>                            
-                        </li>
-                        <li>
-                            <a href="./Paginas/servicios.html" class="cabecera__lista__link servicios"> Lista de Servicios </a>                      
-                        </li>
-                        <li>
-                            <a href="./Paginas/contacto.html" class="cabecera__lista__link contacto"> Contacto </a>    
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <main class="main_Index">                
-                <div class="articulos">
-                    <article class="article_1">
-                        <p class="p_Index">
-                        La fotografía es, antes que nada,<br> una manera de mirar.<br>
-                        No es la mirada misma.
-                        </p>
-                        <img src="./image/images2.jpg" class="imagen_Index">
-                    </article>    
-                    <article class="article_2">          
-                        <p class="p_Index">
-                        Una buena fotografía detiene<br> un momento y evita
-                         que<br> se vaya y desaparezca. <br> <span class="autor"> E.Welty </span>
-                        </p>
-                        <img src="./image/images3.jpg" class="imagen_Index">
-                    </article>
-                </div>
-            </main>
-            <footer class="footer">
-                <div class="barra_Footer">
-                    <ul class="barra__Navegacion-footer">
-                        <li class="link_Social">
-                            <a href="https://wa.me/598099754492?text=Estoy+interesado+en+contratar+tu++servico.%0D%0ASaludos" target="_blank" class="pie__lista__link whatsapp"><img src="./image/Whatsapp_Icono.png" alt="icono-whatsapp"> </a>                               
-                        </li>
-                        <li class="link_Social">
-                            <a href="https://www.facebook.com/" target="_blank" class="pie__lista__link facebook"><img src="./image/image_facebook.jpg" alt="icono-facebook"> </a>                               
-                        </li>
-                        <li class="link_Social">
-                            <a href="https://www.instagram.com/" target="_blank" class="pie__lista__link instagram"><img src="./image/image_Instagram.png" alt="icono-instagram"> </a>                                                                                            
-                        </li>                  
-                        <li class="link_Social">            
-                            <a href="https://www.youtube.com/" target="_blank" class="pie__lista__link youtube"><img src="./image/image_Youtube.png" alt="icono-Youtube"> </a>     
-                        </li>
-                    </ul>
-                </div>  
-            </footer>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
-    </body>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption d-none d-md-block">
+              <p> La fotografía es, antes que nada,<br> una manera de mirar.<br>
+                No es la mirada misma.</p>
+            </div>
+            <img src="./image/images5.jpg" class="d-block w-100" alt="imagen_Index">
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+            <p>Una buena fotografía detiene<br> un momento y evita
+              que<br> se vaya y desaparezca. <br> <span class="autor"> E.Welty </span></p>
+            </div>
+            <img src="./image/Casamiento-114.jpg" class="d-block w-100" alt="imagen_Index">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="sm-handle">
+        <a href="https://www.instagram.com/?hl=es-la" class="sm-button" target="_blank">
+            <i class="fab fa-instagram">	</i></a>
+        <a href="https://www.facebook.com/" class="sm-button" target="_blank">
+              <i class="fab fa-facebook-f">	</i></a>
+            </div>
+            <div class="footer-links">
+              <div class="menu">
+                  <h4 class="menu-title">Menú</h4>							
+                  <a href="index.html" class="menu-links">Home</a>
+                  <a href="Paginas/galeria.html" class="menu-links">Galeria</a>
+                  <a href="Paginas/quienes-somo.html" class="menu-links">Quienes somos</a>
+                  <a href="Paginas/servicios.html" class="menu-links">Servicios</a>
+                  <a href="Paginas/contacto.html" class="menu-links">Contacto</a>
+                </div>
+          
+          <!-- Enlace whatsapp -->
+            <div class="menu">
+                <a href="https://wa.me/598099754492?text=Estoy+interesado+en+contratar+tu++servico.%0D%0ASaludos" class="other-links"><img src="assets/img/contacto/whatsapp_logo_icon_186881.png" alt="whatsapp"></a>
+            </div>
+          </div>  
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+     crossorigin="anonymous"></script>
+</body>
 </html>
