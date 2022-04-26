@@ -4,9 +4,18 @@
     padding: 0;
     
 }
-
+.card{
+    background-color: #682C26;
+}
+.body_Galeria{
+    background-color: #682C26;
+}
 header{
     background-color: #343a40!important
+}
+.main_Contacto{
+    background-color: #949baa;
+    height: 50vh;
 }
 .logo{
     flex: 1 1 auto;
@@ -14,7 +23,7 @@ header{
     text-decoration: none;
     color: #949baa;
     font-family: 'Bogart', sans-serif;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 .foto{
     color: #949baa;
@@ -31,20 +40,79 @@ header{
     color: #797f8c;
 }
 div p{
-    font-size: 3vw;
-    color: rgb(203, 207, 148)
+    font-size: 2.4vw;
+    color: #D9A9AC
 }
-  
-
+.p_index{
+    color: #B1D4E0
+}
+.menu-links{
+    text-decoration: none;
+    color: #949baa
+}
+.icon{
+    width: 4vw;
+    margin: 1vw;
+}
 img{
  width: 60%;
 }
 .navbar-toggler{
     color: #949baa;
 }
-
-
-
-@media (max-width: 574px){
+footer{
+    background-color: #343a40!important
+}
+div .menu{
+    flex-direction: column;
+}
+.card-title{
+    color: #B4A699;
+}
+.link_Galeria{
+    text-decoration: none;
+}
+.card-text{
     
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.main_Servicios{
+    background-color: #B4A699;
+}
+
+
+div .carousel{
+    height: 30vh;
+}
+.img_Casamiento{
+    height: 154vh;
+}
+textarea{
+    resize: none;
+}
+
+@media (max-width: 425px){
+    .logo{
+        flex: 1 1 auto;
+        width: 25vw;
+        text-decoration: none;
+        color: #949baa;
+        font-family: 'Bogart', sans-serif;
+        font-size: 10vw;
+    }
+    .icon{
+        width: 5vw;
+        margin: 1vw;
+    }
+    .card_Servicios{
+        width: 20vw;
+        margin-right: 0%;
+    }
+    .card-img-top{
+        width: 30vw;
+        margin-right: 0%;
+    }
 }

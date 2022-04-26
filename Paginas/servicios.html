@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="../style.css">>
         <title>Gonzalo Vila Fotografías</title>
     </head>
-    <body>
+    <body class="servicios">
        <header class="heder">
             <nav class="navbar navbar-expand-lg navbar-light bg-lignt">
                 <div class="container-fluid">
@@ -37,55 +37,71 @@
             </nav>
         </header>
             <main class="main_Servicios">
-                <article class="article_Servicios">
-                <table border="1" cellpadding="5" class="tabla">
-                        <tr>
-                            <th>
-                            Producto
-                            </th>
-                            <th>
-                            Precio
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                            Casamientos<br>
-                            <img src="../image/Casamiento-39 (1).jpg" alt="fotos_Casmiento" class="servicio_Fotgorafia">
-                            </td>
-                            <td>
-                                $2000
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Cumpleeaños de 15<br>
-                                <img src="../image/Casamiento-192 (1).jpg" alt="fotos_Casmiento" class="servicio_Fotgorafia">
-                            </td>
-                            <td>
-                                $1500
-                            </td>
-                        </tr>
-                    </table>
-                </article>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Servivios</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Casamientos</th>
+                        <td>
+                            <div class="card_Servicios" style="width: 12rem;">
+                                <img src="../image/Casamiento-39 (1).jpg" class="card-img-top" alt="list_ser">                            
+                            </div>
+                        </td>
+                        <td>
+                            $18000 en adelante
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Eventos</th>
+                        <td>
+                            <div class="card_Servicios" style="width: 12rem;">
+                                <img src="../image/Casamiento-101.jpg" class="card-img-top" alt="list_ser">                            
+                            </div>
+                        </td>
+                        <td>$12000 en adelante</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Books</th>
+                        <td>
+                            <div class="card_Servicios" style="width: 12rem;">
+                                <img src="../image/mica-0094-2.jpg" class="card-img-top" alt="list_ser">                            
+                            </div>
+                        </td>
+                        <td>$3500 en adelante</td>
+                      </tr>
+                    </tbody>
+                  </table>
             </main>
             <footer class="footer">
-                <div class="barra_Footer">
-                    <ul class="barra__Navegacion-footer">
-                        <li class="link_Social">
-                            <a href="https://wa.me/598099754492?text=Estoy+interesado+en+contratar+tu++servico.%0D%0ASaludos" target="_blank" class="pie__lista__link whatsapp"><img src="../image/Whatsapp_Icono.png" alt="icono-whatsapp"> </a>                               
-                        </li>
-                        <li class="link_Social">
-                            <a href="https://www.facebook.com/" target="_blank" class="pie__lista__link facebook"><img src="../image/image_facebook.jpg" alt="icono-facebook"> </a>                               
-                        </li>
-                        <li class="link_Social">
-                            <a href="https://www.instagram.com/" target="_blank" class="pie__lista__link instagram"><img src="../image/image_Instagram.png" alt="icono-instagram"> </a>                                                                                            
-                        </li>                  
-                        <li class="link_Social">            
-                            <a href="https://www.youtube.com/" target="_blank" class="pie__lista__link youtube"><img src="../image/image_Youtube.png" alt="icono-Youtube"> </a>     
-                        </li>
-                    </ul>
-                </div>  
-            </footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col menu">
+                      <h4 class="menu-title">Menú</h4>							
+                      <a href="../index.html" class="menu-links">Home</a>
+                      <a href="./galeria.html" class="menu-links">Galeria</a>
+                      <a href="./quienes-somo.html" class="menu-links">Quienes somos</a>
+                      <a href="./servicios.html" class="menu-links">Servicios</a>
+                      <a href="./contacto.html" class="menu-links">Contacto</a>
+                    </div>
+                    <div class="col">
+                      <a href="https://www.instagram.com/?hl=es-la" class="sm-button" target="_blank">
+                        <img src="../image/image_Instagram.png" class="icon" alt="instagram_Icon">
+                      </a>
+                      <a href="https://www.facebook.com/" class="sm-button" target="_blank">
+                        <img src="../image/image_facebook.jpg" class="icon" alt="facebook_Icon">
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a href="https://wa.me/598099754492?text=Estoy+interesado+en+contratar+tu++servico.%0D%0ASaludos" target="_blank" class="other-links">
+                       <img src="../image/Whatsapp_Icono.png" class="icon" alt="Whatsapp_Icono">
+                    </div>
+                  </div>
+                </div>
+              </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
         crossorigin="anonymous"></script>  
