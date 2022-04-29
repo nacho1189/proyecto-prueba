@@ -15,7 +15,7 @@ header{
 }
 .main_Contacto{
     background-color: #B4A699;
-    height: 50vh;
+    height: 76vh;
 }
 body .servicios{
     background-color: #B4A699 ;
@@ -143,7 +143,6 @@ textarea{
         margin-right: 0%;
     }
     .card-img-top{
-        width: 30vw;
         margin-right: 0%;
     }
     .nav-link {
@@ -151,4 +150,8 @@ textarea{
         font-size: 0.8rem;
     }
     
+    .card-group>.card {
+        align-items: center ;
+        }
+       
 }
