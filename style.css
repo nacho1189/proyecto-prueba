@@ -11,11 +11,14 @@
     background-color: #682C26;
 }
 header{
-    background-color: #343a40!important
+    background-color: #343a40;
 }
 .main_Contacto{
     background-color: #B4A699;
     height: 50vh;
+}
+body .servicios{
+    background-color: #B4A699 ;
 }
 .logo{
     flex: 1 1 auto;
@@ -23,7 +26,10 @@ header{
     text-decoration: none;
     color: #949baa;
     font-family: 'Bogart', sans-serif;
-    font-size: 5vw;
+    font-size: 3vw;
+}
+header{
+    height: 15vh;
 }
 .foto{
     color: #949baa;
@@ -32,12 +38,20 @@ header{
     
     font-size: 1.5vw;
 }
+.navbar-light .navbar-toggle{
+    color: #949baa;
+    border-color: #949baa!important /* no me deja cambiarlo bootstrap*/
+}
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: #949baa;
 }
 .navbar-light .navbar-nav .nav-link{
     color: #797f8c;
+}
+.navbar{
+    padding-bottom: 0;
+    padding-top: 0;
 }
 div p{
     font-size: 2.4vw;
@@ -51,7 +65,7 @@ div p{
     color: #949baa
 }
 .icon{
-    width: 4vw;
+    width: 2vw;
     margin: 1vw;
 }
 img{
@@ -61,7 +75,7 @@ img{
     color: #949baa;
 }
 footer{
-    background-color: #343a40!important
+    background-color: #343a40
 }
 div .menu{
     flex-direction: column;
@@ -93,7 +107,17 @@ div .carousel{
 textarea{
     resize: none;
 }
-
+@media (max-width: 991px){
+    header{
+        height: 55vh;
+    }
+}
+@media (max-width: 768px){
+    .nav-link {
+    
+        font-size: 0.8rem;
+    }
+}
 @media (max-width: 425px){
     .logo{
         flex: 1 1 auto;
@@ -102,6 +126,13 @@ textarea{
         color: #949baa;
         font-family: 'Bogart', sans-serif;
         font-size: 10vw;
+    }
+    header{
+        height: 60vh;
+    }
+    td{
+        font-size: 0.6rem;
+        
     }
     .icon{
         width: 5vw;
@@ -115,4 +146,9 @@ textarea{
         width: 30vw;
         margin-right: 0%;
     }
+    .nav-link {
+    
+        font-size: 0.8rem;
+    }
+    
 }
