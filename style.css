@@ -9,6 +9,7 @@
 }
 .body_Galeria{
     background-color: #682C26;
+    height: 100%;
 }
 header{
     background-color: #343a40;
@@ -26,16 +27,17 @@ body .servicios{
     text-decoration: none;
     color: #949baa;
     font-family: 'Bogart', sans-serif;
-    font-size: 3vw;
+    font-size: 8vw;
 }
 header{
-    height: 15vh;
+    height: 50vh;
 }
 .foto{
     color: #949baa;
 }
 .footer_Galeria{
     height: 15vh;
+    bottom: 0;
 }
 .nav-link {
     
@@ -68,7 +70,7 @@ div p{
     color: #949baa
 }
 .icon{
-    width: 2vw;
+    width: 4vw;
     margin: 1vw;
 }
 img{
@@ -112,7 +114,7 @@ textarea{
 }
 @media (max-width: 991px){
     header{
-        height: 55vh;
+        height: 30vh;
     }
 }
 @media (max-width: 768px){
