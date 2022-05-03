@@ -4,12 +4,19 @@
     padding: 0;
     
 }
+.main_Casmiento{
+    background-color: #682C26;
+}
+
 .card{
     background-color: #682C26;
 }
 .body_Galeria{
     background-color: #682C26;
     height: 100%;
+}
+.main_Book{
+    background-color: #682C26;
 }
 header{
     background-color: #343a40;
@@ -40,7 +47,6 @@ header{
     bottom: 0;
 }
 .nav-link {
-    
     font-size: 1.5vw;
 }
 .navbar-light .navbar-toggle{
@@ -70,7 +76,7 @@ div p{
     color: #949baa
 }
 .icon{
-    width: 4vw;
+    width: 3vw;
     margin: 1vw;
 }
 img{
