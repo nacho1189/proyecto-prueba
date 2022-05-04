@@ -1,2 +1,39 @@
+body.servivios {
+  background-color: #682C26; }
+
+body.body_Galeria {
+  background-color: #682C26;
+  height: 100%; }
+
+header {
+  background-color: #343a40;
+  height: 50vh; }
+  header h1 .logo {
+    flex: 1 1 auto;
+    width: 25vw;
+    text-decoration: none;
+    color: #949baa;
+    font-family: 'Bogart', sans-serif;
+    font-size: 8vw; }
+  header .nav-link {
+    font-size: 1.5vw; }
+
+.main_Book {
+  background-color: #682C26; }
+  .main_Book .card {
+    background-color: #682C26; }
+
+.main_Casmiento {
+  background-color: #682C26; }
+  .main_Casmiento .card {
+    background-color: #682C26; }
+
+.main_Contacto {
+  background-color: #B4A699;
+  height: 76vh; }
+
 footer {
   background-color: #343a40; }
+  footer .footer_Galeria {
+    height: 15vh;
+    bottom: 0; }
