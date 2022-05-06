@@ -36,6 +36,7 @@ body .servicios{
 .card-img{
     margin: auto;
     background-color: #682C26;
+    height: 100vh;
 }
 .logo{
     flex: 1 1 auto;
@@ -108,12 +109,18 @@ div .menu{
     text-decoration: none;
     
 }
+.index_Carrusel{
+    width: 75vw;
+}
 .card-text{
         text-align: center;
         font-size: 5vh;
 }
 .card-title{
     text-align: center;
+}
+.card-title{
+    font-size: 8vh;
 }
 .main_Servicios{
     background-color: #B4A699;
@@ -135,12 +142,24 @@ textarea{
     
 }
 @media (max-width: 768px){
-    
+    .index_Carrusel{
+        width: 100vw;
+    }
     
     .nav-link {
         
         font-size: 0.8rem;
     }
+    .main_Index{
+        height: 78vh;
+    }
+
+
+}
+@media (max-width:560px){
+    .card-text{
+        font-size: 5vw;
+}
 
 }
 @media (max-width: 425px){
