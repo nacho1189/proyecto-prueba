@@ -28,16 +28,26 @@ header{
 body .servicios{
     background-color: #B4A699 ;
 }
+.main_Index{
+    background-color: #682C26;
+}
+
+
+.card-img{
+    margin: auto;
+    background-color: #682C26;
+}
 .logo{
     flex: 1 1 auto;
     width: 25vw;
     text-decoration: none;
     color: #949baa;
     font-family: 'Bogart', sans-serif;
-    font-size: 8vw;
+    font-size: 5vw;
 }
-header{
-    height: 50vh;
+
+.carousel{
+    margin: auto;
 }
 .foto{
     color: #949baa;
@@ -99,8 +109,8 @@ div .menu{
     
 }
 .card-text{
-    
-    text-align: center;
+        text-align: center;
+        font-size: 5vh;
 }
 .card-title{
     text-align: center;
@@ -121,15 +131,17 @@ textarea{
     resize: none;
 }
 @media (max-width: 991px){
-    header{
-        height: 30vh;
-    }
+    
+    
 }
 @media (max-width: 768px){
-    .nav-link {
     
+    
+    .nav-link {
+        
         font-size: 0.8rem;
     }
+
 }
 @media (max-width: 425px){
     .logo{
@@ -140,9 +152,8 @@ textarea{
         font-family: 'Bogart', sans-serif;
         font-size: 10vw;
     }
-    header{
-        height: 60vh;
-    }
+   
+    
     td{
         font-size: 0.6rem;
         
