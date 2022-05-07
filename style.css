@@ -119,9 +119,6 @@ div .menu{
 .card-title{
     text-align: center;
 }
-.card-title{
-    font-size: 8vh;
-}
 .main_Servicios{
     background-color: #B4A699;
     
@@ -196,5 +193,7 @@ textarea{
     .card-group>.card {
         align-items: center ;
         }
-       
+    .main_Index{
+            height: 70vh;
+        }
 }
