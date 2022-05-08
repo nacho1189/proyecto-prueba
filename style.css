@@ -143,6 +143,7 @@ textarea{
     
     
 }
+
 @media (max-width: 768px){
     
     
@@ -203,5 +204,20 @@ textarea{
 @media (max-width: 425px){
     .card_Servicios{
             width: 10rem!important
+    }
+}
+@media (max-height:441px){
+    .main_Index{
+        height: 150vh;
+    }
+}
+@media (max-height:312px){
+    .main_Index{
+        height: 180vh;
+    }
+}
+@media (max-height:260px){
+    .main_Index{
+        height: 250vh;
     }
 }
