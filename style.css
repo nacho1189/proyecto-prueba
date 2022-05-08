@@ -38,6 +38,9 @@ body .servicios{
     background-color: #682C26;
     height: 100vh;
 }
+.g-4 {
+    --bs-gutter-x: 1.5rem!important
+}
 .logo{
     flex: 1 1 auto;
     width: 25vw;
@@ -46,7 +49,9 @@ body .servicios{
     font-family: 'Bogart', sans-serif;
     font-size: 5vw;
 }
-
+.row{
+    --bs-gutter-x: 1.5rem!important
+}
 .carousel{
     margin: auto;
 }
@@ -55,7 +60,7 @@ body .servicios{
 }
 .footer_Galeria{
     height: 15vh;
-    bottom: 0;
+    
 }
 .nav-link {
     font-size: 1.5vw;
@@ -139,9 +144,7 @@ textarea{
     
 }
 @media (max-width: 768px){
-    .index_Carrusel{
-        width: 100vw;
-    }
+    
     
     .nav-link {
         
@@ -196,4 +199,9 @@ textarea{
     .main_Index{
             height: 70vh;
         }
+}
+@media (max-width: 425px){
+    .card_Servicios{
+            width: 10rem!important
+    }
 }
