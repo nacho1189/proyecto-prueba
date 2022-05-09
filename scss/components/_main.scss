@@ -3,14 +3,107 @@
    .card{
         background-color: $color-principal-body;
     }
-}    
+    div{
+        div{
+            div{
+                img .card-img{
+                    background-color:$color-principal-body ;
+                    margin: auto;
+                    height: 100vh;
+                }
+            }
+        }
+
+    }
+} 
+.main_Eventos{
+    background-color:$color-principal-body;
+   .card{
+        background-color: $color-principal-body;
+    }
+    div{
+        div{
+            div{
+                img .card-img{
+                    background-color:$color-principal-body ;
+                    margin: auto;
+                    height: 100vh;
+                            }
+                }
+            }
+        }
+
+}   
 .main_Casmiento{
     background-color: $color-principal-body;
     .card{
-        background-color: #682C26;
+        background-color: $color-body-servicios;
+    }
+    div{
+        div{
+            div{
+                img .card-img{
+                    background-color:$color-principal-body ;
+                    margin: auto;
+                    height: 100vh;
+                }
+            }
+        }
+
     }
 }
 .main_Contacto{
     background-color: $color-body-servicios;
     height: 76vh;
+}
+.main_Index_{
+    background-color:$color-principal-body;
+
+}
+.main_Servicios{
+    background-color: $color-body-servicios;
+    
+}
+.main_Galeria{
+    div{
+        div{
+            img.card-img{
+                    background-color:$color-principal-body ;
+                    margin: auto;
+                    height: 100vh;
+            }
+        }
+    }
+
+}
+main{
+    div{
+        .card-img{
+                background-color:$color-principal-body ;
+                margin: auto;
+                height: 100vh;
+        }
+
+    }
+}
+.main_Servicios{
+    .container{
+        .table{
+            tbody{
+                tr{
+                    td.card_Servicios{
+                        div.card_Servicios{
+                            img.card-img-top{
+                                background-color:$color-principal-body ;
+                                margin: auto;
+                                height: 100vh;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
 }

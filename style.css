@@ -31,16 +31,16 @@ body .servicios{
 .main_Index{
     background-color: #682C26;
 }
-
+.main_Eventos{
+    background-color: #682C26;
+}
 
 .card-img{
     margin: auto;
     background-color: #682C26;
     height: 100vh;
 }
-.g-4 {
-    --bs-gutter-x: 1.5rem!important
-}
+/*quede aca*/
 .logo{
     flex: 1 1 auto;
     width: 25vw;
