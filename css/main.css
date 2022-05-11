@@ -8,28 +8,19 @@ body.body_Galeria {
   background-color: #682C26;
   height: 100%; }
 
-/*mixin*/
-.logo {
-  flex: 1 1 auto;
-  width: 25vw;
-  text-decoration: none;
-  color: #949baa;
-  font-family: 'Bogart', sans-serif;
-  font-size: 5vw; }
-
 header {
   background-color: #343a40;
   height: 50vh; }
   header nav div div a h1 {
+    /*mixin*/
     flex: 1 1 auto;
     width: 25vw;
     text-decoration: none;
     color: #949baa;
     font-family: 'Bogart', sans-serif;
-    font-size: 8vw; }
-
-.nav-link {
-  font-size: 1.5vw; }
+    font-size: 5vw; }
+  header nav div div div a .nav-link {
+    font-size: 1.5vw; }
 
 .main_Book {
   background-color: #682C26; }
