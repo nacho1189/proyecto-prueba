@@ -7,7 +7,9 @@
 .main_Casmiento{
     background-color: #682C26;
 }
-
+body{
+    background-color: #682C26;
+}
 .card{
     background-color: #682C26;
 }
@@ -74,6 +76,10 @@ body .servicios{
     color: #949baa;
     border-color: #949baa!important /* no me deja cambiarlo bootstrap*/
 }
+.card-group{
+    margin-top: 5px; 
+}
+
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: #949baa;
@@ -198,9 +204,4 @@ textarea{
         align-items: center ;
         }
     
-}
-@media (max-width: 425px){
-    .card_Servicios{
-            width: 10rem!important
-    }
 }

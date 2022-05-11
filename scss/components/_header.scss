@@ -6,20 +6,20 @@ header{
             div{
                 a{
                   h1{
-                    flex: 1 1 auto;
-                    width: 25vw;
-                    text-decoration: none;
-                    color: #949baa;
-                    font-family: 'Bogart', sans-serif;
-                    font-size: 8vw;
+                      /*mixin*/
+                    @include logo(5vw)
                   }  
                 }
+            }
+            div{
+                 div{
+                     a .nav-link{
+                        font-size: 1.5vw; 
+                     }
+                 }
             }
         }
     }
        
 }
-    .nav-link {
-        font-size: 1.5vw;
-    }
- 
+    
