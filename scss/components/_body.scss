@@ -2,6 +2,11 @@ body.servivios{
     background-color: $color-principal-body;
 }
 body.body_Galeria{
-    background-color: $color-principal-body;
+    /*map-get*/
+    background-color: map-get($colors, color-principal);
     height: 100%;
+}
+/*mixin*/
+.logo{
+    @include logo(5vw)
 }

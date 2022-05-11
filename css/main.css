@@ -1,39 +1,99 @@
+/*mixin*/
+/*map*/
 body.servivios {
   background-color: #682C26; }
 
 body.body_Galeria {
+  /*map-get*/
   background-color: #682C26;
   height: 100%; }
+
+/*mixin*/
+.logo {
+  flex: 1 1 auto;
+  width: 25vw;
+  text-decoration: none;
+  color: #949baa;
+  font-family: 'Bogart', sans-serif;
+  font-size: 5vw; }
 
 header {
   background-color: #343a40;
   height: 50vh; }
-  header h1 .logo {
+  header nav div div a h1 {
     flex: 1 1 auto;
     width: 25vw;
     text-decoration: none;
     color: #949baa;
     font-family: 'Bogart', sans-serif;
     font-size: 8vw; }
-  header .nav-link {
-    font-size: 1.5vw; }
+
+.nav-link {
+  font-size: 1.5vw; }
 
 .main_Book {
   background-color: #682C26; }
   .main_Book .card {
     background-color: #682C26; }
+  .main_Book div div div img .card-img {
+    background-color: #682C26;
+    margin: auto;
+    height: 100vh; }
+
+.main_Eventos {
+  background-color: #682C26; }
+  .main_Eventos .card {
+    background-color: #682C26; }
+  .main_Eventos div div div img .card-img {
+    background-color: #682C26;
+    margin: auto;
+    height: 100vh; }
 
 .main_Casmiento {
   background-color: #682C26; }
   .main_Casmiento .card {
-    background-color: #682C26; }
+    background-color: #B4A699; }
+  .main_Casmiento div div div img .card-img {
+    background-color: #682C26;
+    margin: auto;
+    height: 100vh; }
 
 .main_Contacto {
   background-color: #B4A699;
   height: 76vh; }
+
+.main_Index_ {
+  background-color: #682C26; }
+
+.main_Servicios {
+  background-color: #B4A699; }
+
+.main_Galeria div div img.card-img {
+  background-color: #682C26;
+  margin: auto;
+  height: 100vh; }
+
+main div .card-img {
+  background-color: #682C26;
+  margin: auto;
+  height: 100vh; }
+
+.main_Servicios .container .table tbody tr td.card_Servicios div.card_Servicios img.card-img-top {
+  background-color: #682C26;
+  margin: auto;
+  height: 100vh; }
 
 footer {
   background-color: #343a40; }
   footer .footer_Galeria {
     height: 15vh;
     bottom: 0; }
+
+@media (max-width: 425px) {
+  .logo {
+    flex: 1 1 auto;
+    width: 25vw;
+    text-decoration: none;
+    color: #949baa;
+    font-family: 'Bogart', sans-serif;
+    font-size: 10vw; } }

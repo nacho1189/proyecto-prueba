@@ -30,7 +30,11 @@ body .servicios{
 }
 .main_Index{
     background-color: #682C26;
+    
 }
+    
+    
+
 .main_Eventos{
     background-color: #682C26;
 }
@@ -54,6 +58,7 @@ body .servicios{
 }
 .carousel{
     margin: auto;
+    
 }
 .foto{
     color: #949baa;
@@ -139,10 +144,7 @@ div .carousel{
 textarea{
     resize: none;
 }
-@media (max-width: 991px){
-    
-    
-}
+
 
 @media (max-width: 768px){
     
@@ -151,9 +153,7 @@ textarea{
         
         font-size: 0.8rem;
     }
-    .main_Index{
-        height: 100vh;
-    }
+    
 
 
 }
@@ -197,27 +197,10 @@ textarea{
     .card-group>.card {
         align-items: center ;
         }
-    .main_Index{
-            height: 70vh;
-        }
+    
 }
 @media (max-width: 425px){
     .card_Servicios{
             width: 10rem!important
-    }
-}
-@media (max-height:441px){
-    .main_Index{
-        height: 150vh;
-    }
-}
-@media (max-height:312px){
-    .main_Index{
-        height: 180vh;
-    }
-}
-@media (max-height:260px){
-    .main_Index{
-        height: 250vh;
     }
 }

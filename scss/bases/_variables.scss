@@ -3,3 +3,18 @@ $color-principal-header-footer: #343a40;
 $color-principal-body: #682C26;
 
 $color-body-servicios: #B4A699;
+/*mixin*/
+@mixin logo($font-size){
+    flex: 1 1 auto;
+    width: 25vw;
+    text-decoration: none;
+    color: #949baa;
+    font-family: 'Bogart', sans-serif;
+    font-size: $font-size;
+};
+/*map*/
+$colors:(
+    color-principal:#682C26,
+    color-secunadrio:#343a40,
+    color-terceraio:#B4A699,
+);
