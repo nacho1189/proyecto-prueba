@@ -6,3 +6,7 @@ body.body_Galeria{
     background-color: map-get($colors, color-principal);
     height: 100%;
 }
+/*@extend*/
+.div8{
+    @extend .div;
+}
