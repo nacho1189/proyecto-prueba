@@ -15,9 +15,11 @@ body.body_Galeria {
   height: 100%; }
 
 /*@extend*/
+body {
+  background-color: #682C26; }
+
 header {
-  background-color: #343a40;
-  height: 50vh; }
+  background-color: #343a40; }
   header nav div div a h1 {
     /*mixin*/
     flex: 1 1 auto;
@@ -26,8 +28,19 @@ header {
     color: #949baa;
     font-family: 'Bogart', sans-serif;
     font-size: 5vw; }
-  header nav div div div a .nav-link {
-    font-size: 1.5vw; }
+  header nav div div a h2 {
+    color: #949baa; }
+  header nav div div div {
+    padding-bottom: 0;
+    padding-top: 0; }
+    header nav div div div a {
+      font-size: 1.5vw; }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #949baa; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #797f8c; }
 
 .main_Book {
   background-color: #682C26; }
@@ -60,32 +73,70 @@ header {
   background-color: #B4A699;
   height: 76vh; }
 
-.main_Index_ {
-  background-color: #682C26; }
-
 .main_Servicios {
   background-color: #B4A699; }
 
-.main_Galeria div div img.card-img {
-  background-color: #682C26;
-  margin: auto;
-  height: 100vh; }
+.main_Galeria div {
+  background-color: #682C26; }
+  .main_Galeria div div a {
+    text-decoration: none; }
+    .main_Galeria div div a img.card-img {
+      background-color: #682C26;
+      margin: auto;
+      height: 100vh; }
+    .main_Galeria div div a div h5 {
+      color: #B4A699;
+      text-align: center; }
 
-main div .card-img {
-  background-color: #682C26;
-  margin: auto;
-  height: 100vh; }
+.main_Index {
+  background-color: #682C26; }
+  .main_Index div {
+    margin: auto; }
+    .main_Index div .card-img {
+      background-color: #682C26;
+      margin: auto;
+      height: 100vh; }
+  .main_Index div div {
+    background-color: #682C26; }
+    .main_Index div div div {
+      border: solid;
+      border-color: #343a40;
+      border-width: 0.2vw; }
+      .main_Index div div div h5 {
+        text-align: center;
+        color: #B4A699; }
+      .main_Index div div div p {
+        font-size: 4vh;
+        color: #B4A699;
+        text-align: center; }
 
 .main_Servicios .container .table tbody tr td.card_Servicios div.card_Servicios img.card-img-top {
   background-color: #682C26;
   margin: auto;
   height: 100vh; }
 
+.quienes_Somos {
+  background-color: #682C26; }
+  .quienes_Somos div img {
+    background-color: #682C26;
+    margin: auto;
+    height: 100vh;
+    border: solid;
+    border-color: #682C26;
+    border-width: 0.3vw; }
+  .quienes_Somos div div h1 {
+    text-align: center;
+    color: #B4A699; }
+  .quienes_Somos div div p {
+    color: #D9A9AC;
+    text-align: center;
+    font-size: 5vh; }
+
 footer {
   background-color: #343a40; }
-  footer .footer_Galeria {
-    height: 15vh;
-    bottom: 0; }
+  footer div div a img {
+    width: 3vw;
+    margin: 1vw; }
 
 @media (max-width: 425px) {
   .logo {

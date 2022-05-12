@@ -28,7 +28,7 @@
                     background-color:$color-principal-body ;
                     margin: auto;
                     height: 100vh;
-                            }
+                    }
                 }
             }
         }
@@ -56,34 +56,67 @@
     background-color: $color-body-servicios;
     height: 76vh;
 }
-.main_Index_{
-    background-color:$color-principal-body;
 
-}
+
+
 .main_Servicios{
     background-color: $color-body-servicios;
     
 }
 .main_Galeria{
-    div{
+    div {
+        background-color: $color-principal-body;
         div{
-            img.card-img{
+            a{
+                text-decoration: none;
+                 img.card-img{
                     background-color:$color-principal-body ;
                     margin: auto;
                     height: 100vh;
+                }
+                div{
+                    h5{
+                        color: $color-body-servicios;
+                        text-align: center;
+                    }
+                }
             }
         }
     }
 
 }
-main{
-    div{
+.main_Index{
+    background-color: $color-principal-body ;
+    div {margin: auto;
         .card-img{
-                background-color:$color-principal-body ;
+                background-color: $color-principal-body ;
                 margin: auto;
                 height: 100vh;
         }
 
+    }
+    div {
+        
+        div {
+            background-color: $color-principal-body ;
+            
+            div {
+                
+                border: solid;
+                border-color: map-get($colors ,color-secunadrio );
+                border-width: 0.2vw;
+                
+                h5{
+                    text-align: center;
+                    color: #B4A699;
+                }
+                p{
+                    font-size: 4vh;
+                    color: $color-body-servicios;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
 .main_Servicios{
@@ -104,6 +137,33 @@ main{
                 }
             }
 
+        }
+    }
+}
+.quienes_Somos{
+    background-color:$color-principal-body;
+    div{
+
+        img{
+            background-color:$color-principal-body;
+            margin: auto;
+            height: 100vh;
+            border: solid;
+            border-color: $color-principal-body;
+            border-width: 0.3vw;
+        }
+        div{
+
+        
+            h1{
+                text-align: center;
+                color: $color-body-servicios;
+            }
+            p{
+                color: #D9A9AC;
+                text-align: center;
+                font-size: 5vh;
+            }
         }
     }
 }

@@ -1,7 +1,13 @@
 footer{
     background-color:$color-principal-header-footer ;
-    .footer_Galeria{
-        height: 15vh;
-        bottom: 0;
+    div{
+        div{
+            a{
+                img{
+                    width: 3vw;
+                    margin: 1vw;
+                }
+            }
+        }
     }
 }

@@ -1,6 +1,6 @@
 header{
         background-color: $color-principal-header-footer;
-        height: 50vh;
+        
     nav{
         div{
             div{
@@ -8,18 +8,31 @@ header{
                   h1{
                       /*mixin*/
                     @include logo(5vw)
-                  }  
+                  }
+                  h2{
+                    color: map-get($colors, color-cuaternario )
+                    }  
                 }
             }
+           
             div{
-                 div{
-                     a .nav-link{
-                        font-size: 1.5vw; 
-                     }
-                 }
+                
+                div{
+                    padding-bottom: 0;
+                    padding-top: 0;
+                    a{
+                        font-size: 1.5vw;
+                    }
+                }
             }
         }
     }
+}
        
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #949baa;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #797f8c;
 }
     

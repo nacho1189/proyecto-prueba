@@ -10,3 +10,6 @@ body.body_Galeria{
 .div8{
     @extend .div;
 }
+body{
+    background-color: map-get($colors, color-principal);
+}
