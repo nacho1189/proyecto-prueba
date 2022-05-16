@@ -1,5 +1,21 @@
+@media (max-width:960px){
+    
+        
+}
+
+
+
 @media (max-width: 425px){
     .logo{
     @include logo(10vw)
-    }
+        }
+    .quienes_Somos div div p {
+        color: #D9A9AC;
+        text-align: center;
+        font-size: 3.6vh
+                    }   
+    header nav div div div a {
+         font-size: 2.8vw;
+    }                                
 }
+

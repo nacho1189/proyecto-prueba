@@ -3,19 +3,17 @@
    .card{
         background-color: $color-principal-body;
     }
-    div{
-        div{
-            div{
-                img .card-img{
-                    background-color:$color-principal-body ;
-                    margin: auto;
-                    height: 100vh;
-                }
+   
+     div{
+         img .card-img{
+            background-color:$color-principal-body ;
+            margin: auto;
+            height: 100vh;
             }
         }
-
     }
-} 
+
+     
 .main_Eventos{
     background-color:$color-principal-body;
    .card{
@@ -23,35 +21,33 @@
     }
     div{
         div{
-            div{
-                img .card-img{
-                    background-color:$color-principal-body ;
-                    margin: auto;
-                    height: 100vh;
-                    }
-                }
-            }
-        }
+            img .card-img{
+               background-color:$color-principal-body ;
+               margin: auto;
+               height: 100vh;
+               }
+           }
+       }
+}
 
-}   
+  
 .main_Casmiento{
     background-color: $color-principal-body;
     .card{
         background-color: $color-body-servicios;
     }
-    div{
+    
         div{
-            div{
-                img .card-img{
-                    background-color:$color-principal-body ;
-                    margin: auto;
-                    height: 100vh;
-                }
+            img .card-img{
+               background-color:$color-principal-body ;
+               margin: auto;
+               height: 100vh;
             }
         }
-
-    }
 }
+
+    
+
 .main_Contacto{
     background-color: $color-body-servicios;
     height: 76vh;
@@ -63,83 +59,53 @@
     background-color: $color-body-servicios;
     
 }
+
 .main_Galeria{
     div {
         background-color: $color-principal-body;
-        div{
             a{
                 text-decoration: none;
-                 img.card-img{
+                img.card-img{
                     background-color:$color-principal-body ;
                     margin: auto;
                     height: 100vh;
-                }
-                div{
-                    h5{
-                        color: $color-body-servicios;
-                        text-align: center;
+                } 
+                h5{
+                    color: $color-body-servicios;
+                    text-align: center;
                     }
                 }
             }
         }
-    }
 
-}
+
 .main_Index{
     background-color: $color-principal-body ;
     div {margin: auto;
+        background-color: $color-principal-body ;
+        border-color: map-get($colors ,color-secunadrio );
         .card-img{
                 background-color: $color-principal-body ;
-                margin: auto;
-                height: 100vh;
-        }
-
-    }
-    div {
-        
-        div {
-            background-color: $color-principal-body ;
-            
-            div {
                 
-                border: solid;
-                border-color: map-get($colors ,color-secunadrio );
-                border-width: 0.2vw;
-                
-                h5{
-                    text-align: center;
-                    color: #B4A699;
-                }
-                p{
-                    font-size: 4vh;
-                    color: $color-body-servicios;
-                    text-align: center;
-                }
-            }
         }
-    }
+        h5{
+            text-align: center;
+            color: #B4A699;
+        }
+        p{
+            font-size: 4vh;
+            color: $color-body-servicios;
+            text-align: center;
+        }
+    }    
 }
+
 .main_Servicios{
-    .container{
-        .table{
-            tbody{
-                tr{
-                    td.card_Servicios{
-                        div.card_Servicios{
-                            img.card-img-top{
-                                background-color:$color-principal-body ;
-                                margin: auto;
-                                height: 100vh;
-                            }
-                        }
-                    }
-
-                }
-            }
-
+    img.card-img-top{
+        background-color:$color-principal-body ;
+        margin: auto;                    
         }
     }
-}
 .quienes_Somos{
     background-color:$color-principal-body;
     div{
@@ -152,18 +118,14 @@
             border-color: $color-principal-body;
             border-width: 0.3vw;
         }
-        div{
-
-        
-            h1{
-                text-align: center;
-                color: $color-body-servicios;
+        h1{
+            text-align: center;
+            color: $color-body-servicios;
             }
-            p{
-                color: #D9A9AC;
-                text-align: center;
-                font-size: 5vh;
-            }
-        }
+        p{
+            color: #D9A9AC;
+            text-align: center;
+            font-size: 5vh;
+        }    
     }
 }

@@ -3,31 +3,25 @@ header{
         
     nav{
         div{
-            div{
-                a{
-                  h1{
+            padding-bottom: 0;
+            padding-top: 0;
+            
+            a{
+                font-size: 2vw;
+                h1{
                       /*mixin*/
                     @include logo(5vw)
-                  }
-                  h2{
+                }
+                h2{
                     color: map-get($colors, color-cuaternario )
-                    }  
-                }
+                }  
             }
-           
-            div{
-                
-                div{
-                    padding-bottom: 0;
-                    padding-top: 0;
-                    a{
-                        font-size: 1.5vw;
-                    }
-                }
             }
         }
     }
-}
+    
+
+
        
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: #949baa;

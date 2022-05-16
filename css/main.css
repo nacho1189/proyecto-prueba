@@ -20,21 +20,21 @@ body {
 
 header {
   background-color: #343a40; }
-  header nav div div a h1 {
-    /*mixin*/
-    flex: 1 1 auto;
-    width: 25vw;
-    text-decoration: none;
-    color: #949baa;
-    font-family: 'Bogart', sans-serif;
-    font-size: 5vw; }
-  header nav div div a h2 {
-    color: #949baa; }
-  header nav div div div {
+  header nav div {
     padding-bottom: 0;
     padding-top: 0; }
-    header nav div div div a {
-      font-size: 1.5vw; }
+    header nav div a {
+      font-size: 2vw; }
+      header nav div a h1 {
+        /*mixin*/
+        flex: 1 1 auto;
+        width: 25vw;
+        text-decoration: none;
+        color: #949baa;
+        font-family: 'Bogart', sans-serif;
+        font-size: 5vw; }
+      header nav div a h2 {
+        color: #949baa; }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
   color: #949baa; }
@@ -46,7 +46,7 @@ header {
   background-color: #682C26; }
   .main_Book .card {
     background-color: #682C26; }
-  .main_Book div div div img .card-img {
+  .main_Book div img .card-img {
     background-color: #682C26;
     margin: auto;
     height: 100vh; }
@@ -55,7 +55,7 @@ header {
   background-color: #682C26; }
   .main_Eventos .card {
     background-color: #682C26; }
-  .main_Eventos div div div img .card-img {
+  .main_Eventos div div img .card-img {
     background-color: #682C26;
     margin: auto;
     height: 100vh; }
@@ -64,7 +64,7 @@ header {
   background-color: #682C26; }
   .main_Casmiento .card {
     background-color: #B4A699; }
-  .main_Casmiento div div div img .card-img {
+  .main_Casmiento div img .card-img {
     background-color: #682C26;
     margin: auto;
     height: 100vh; }
@@ -78,42 +78,35 @@ header {
 
 .main_Galeria div {
   background-color: #682C26; }
-  .main_Galeria div div a {
+  .main_Galeria div a {
     text-decoration: none; }
-    .main_Galeria div div a img.card-img {
+    .main_Galeria div a img.card-img {
       background-color: #682C26;
       margin: auto;
       height: 100vh; }
-    .main_Galeria div div a div h5 {
+    .main_Galeria div a h5 {
       color: #B4A699;
       text-align: center; }
 
 .main_Index {
   background-color: #682C26; }
   .main_Index div {
-    margin: auto; }
+    margin: auto;
+    background-color: #682C26;
+    border-color: #343a40; }
     .main_Index div .card-img {
-      background-color: #682C26;
-      margin: auto;
-      height: 100vh; }
-  .main_Index div div {
-    background-color: #682C26; }
-    .main_Index div div div {
-      border: solid;
-      border-color: #343a40;
-      border-width: 0.2vw; }
-      .main_Index div div div h5 {
-        text-align: center;
-        color: #B4A699; }
-      .main_Index div div div p {
-        font-size: 4vh;
-        color: #B4A699;
-        text-align: center; }
+      background-color: #682C26; }
+    .main_Index div h5 {
+      text-align: center;
+      color: #B4A699; }
+    .main_Index div p {
+      font-size: 4vh;
+      color: #B4A699;
+      text-align: center; }
 
-.main_Servicios .container .table tbody tr td.card_Servicios div.card_Servicios img.card-img-top {
+.main_Servicios img.card-img-top {
   background-color: #682C26;
-  margin: auto;
-  height: 100vh; }
+  margin: auto; }
 
 .quienes_Somos {
   background-color: #682C26; }
@@ -124,17 +117,17 @@ header {
     border: solid;
     border-color: #682C26;
     border-width: 0.3vw; }
-  .quienes_Somos div div h1 {
+  .quienes_Somos div h1 {
     text-align: center;
     color: #B4A699; }
-  .quienes_Somos div div p {
+  .quienes_Somos div p {
     color: #D9A9AC;
     text-align: center;
     font-size: 5vh; }
 
 footer {
   background-color: #343a40; }
-  footer div div a img {
+  footer a img {
     width: 3vw;
     margin: 1vw; }
 
@@ -145,4 +138,10 @@ footer {
     text-decoration: none;
     color: #949baa;
     font-family: 'Bogart', sans-serif;
-    font-size: 10vw; } }
+    font-size: 10vw; }
+  .quienes_Somos div div p {
+    color: #D9A9AC;
+    text-align: center;
+    font-size: 3.6vh; }
+  header nav div div div a {
+    font-size: 2.8vw; } }
