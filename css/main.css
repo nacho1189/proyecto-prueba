@@ -128,8 +128,15 @@ header {
 footer {
   background-color: #343a40; }
   footer a img {
-    width: 3vw;
+    width: 3.5vw;
     margin: 1vw; }
+
+@media (max-width: 1024px) {
+  footer a img {
+    width: 5vw;
+    margin: 1vw; }
+  header nav div a {
+    font-size: 2.5vw; } }
 
 @media (max-width: 425px) {
   .logo {
@@ -143,5 +150,11 @@ footer {
     color: #D9A9AC;
     text-align: center;
     font-size: 3.6vh; }
-  header nav div div div a {
-    font-size: 2.8vw; } }
+  header nav div a {
+    font-size: 4vw; }
+  footer a img {
+    width: 8vw;
+    margin: 1vw; } }
+
+header nav a {
+  font-size: 2vw; }

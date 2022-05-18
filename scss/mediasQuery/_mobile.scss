@@ -1,6 +1,23 @@
-@media (max-width:960px){
+@media (max-width:1024px){
+    footer{
+        a{
+            img{
+                 width: 5vw;
+                 margin: 1vw;
+                }
+        }
+    }
     
-        
+    
+    header{   
+        nav{
+            div{
+            a{
+                font-size: 2.5vw;  
+                }
+            }
+        }
+    }    
 }
 
 
@@ -14,8 +31,31 @@
         text-align: center;
         font-size: 3.6vh
                     }   
-    header nav div div div a {
-         font-size: 2.8vw;
-    }                                
+    header{   
+            nav{
+                div{
+                    a{
+                    font-size: 4vw;  
+                    }
+                }
+            }
+        }                    
+    footer{
+        a{
+            img{
+                 width: 8vw;
+                 margin: 1vw;
+                }
+        }
+    }                               
 }
 
+header{   
+    nav{
+        a{
+            font-size: 2vw;
+            
+        }
+        
+    }
+}
