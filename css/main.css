@@ -151,10 +151,13 @@ footer {
     text-align: center;
     font-size: 3.6vh; }
   header nav div a {
-    font-size: 4vw; }
+    font-size: 6vw; }
   footer a img {
-    width: 8vw;
-    margin: 1vw; } }
+    width: 15vw;
+    margin: 2vw; }
+  .card_Servicios {
+    width: 25vw !important; } }
 
-header nav a {
-  font-size: 2vw; }
+@media (max-width: 320px) {
+  .card_Servicios {
+    width: 35vw !important; } }
