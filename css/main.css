@@ -18,6 +18,10 @@ body.body_Galeria {
 body {
   background-color: #682C26; }
 
+body.body_Contacto {
+  /*map-get*/
+  background-color: #B4A699; }
+
 header {
   background-color: #343a40; }
   header nav div {
@@ -70,7 +74,8 @@ header {
     height: 100vh; }
 
 .main_Contacto {
-  background-color: #B4A699; }
+  background-color: #B4A699;
+  margin-bottom: 15vh; }
 
 .main_Servicios {
   background-color: #B4A699; }

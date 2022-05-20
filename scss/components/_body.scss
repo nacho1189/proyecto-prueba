@@ -13,3 +13,7 @@ body.body_Galeria{
 body{
     background-color: map-get($colors, color-principal);
 }
+body.body_Contacto{
+    /*map-get*/
+    background-color: map-get($colors,color-terceraio);
+}
