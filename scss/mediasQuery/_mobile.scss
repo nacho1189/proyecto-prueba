@@ -1,8 +1,12 @@
 @media (max-width:1024px){
+    .logo{
+        @include logo(10vw)
+            }
     footer{
+    
         a{
             img{
-                 width: 5vw;
+                 width: 6vw;
                  margin: 1vw;
                 }
         }
@@ -13,7 +17,7 @@
         nav{
             div{
             a{
-                font-size: 2.5vw;  
+                font-size: 3.0vw;  
                 }
             }
         }

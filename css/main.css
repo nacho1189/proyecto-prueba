@@ -94,16 +94,15 @@ header {
 
 .main_Index {
   background-color: #682C26; }
-  .main_Index div {
-    margin: auto;
+  .main_Index div .card {
     background-color: #682C26;
     border-color: #343a40; }
-    .main_Index div .card-img {
+    .main_Index div .card .card-img {
       background-color: #682C26; }
-    .main_Index div h5 {
+    .main_Index div .card h5 {
       text-align: center;
       color: #B4A699; }
-    .main_Index div p {
+    .main_Index div .card p {
       font-size: 4vh;
       color: #B4A699;
       text-align: center; }
@@ -136,11 +135,18 @@ footer {
     margin: 1vw; }
 
 @media (max-width: 1024px) {
+  .logo {
+    flex: 1 1 auto;
+    width: 25vw;
+    text-decoration: none;
+    color: #949baa;
+    font-family: 'Bogart', sans-serif;
+    font-size: 10vw; }
   footer a img {
-    width: 5vw;
+    width: 6vw;
     margin: 1vw; }
   header nav div a {
-    font-size: 2.5vw; } }
+    font-size: 3.0vw; } }
 
 @media (max-width: 425px) {
   .logo {

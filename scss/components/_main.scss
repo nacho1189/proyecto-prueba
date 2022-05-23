@@ -82,8 +82,8 @@
 
 
 .main_Index{
-    background-color: $color-principal-body ;
-    div {margin: auto;
+        background-color: $color-principal-body ;
+    div .card{
         background-color: $color-principal-body ;
         border-color: map-get($colors ,color-secunadrio );
         .card-img{
