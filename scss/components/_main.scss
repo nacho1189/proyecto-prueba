@@ -7,8 +7,6 @@
      div{
          img .card-img{
             background-color:$color-principal-body ;
-            margin: auto;
-            height: 100vh;
             }
         }
     }
@@ -21,10 +19,9 @@
     }
     div{
         div{
+            margin: 1vh;
             img .card-img{
                background-color:$color-principal-body ;
-               margin: auto;
-               height: 100vh;
                }
            }
        }
@@ -36,12 +33,9 @@
     .card{
         background-color: $color-body-servicios;
     }
-    
         div{
             img .card-img{
                background-color:$color-principal-body ;
-               margin: auto;
-               height: 100vh;
             }
         }
 }

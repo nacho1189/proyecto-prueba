@@ -51,27 +51,23 @@ header {
   .main_Book .card {
     background-color: #682C26; }
   .main_Book div img .card-img {
-    background-color: #682C26;
-    margin: auto;
-    height: 100vh; }
+    background-color: #682C26; }
 
 .main_Eventos {
   background-color: #682C26; }
   .main_Eventos .card {
     background-color: #682C26; }
-  .main_Eventos div div img .card-img {
-    background-color: #682C26;
-    margin: auto;
-    height: 100vh; }
+  .main_Eventos div div {
+    margin: 1vh; }
+    .main_Eventos div div img .card-img {
+      background-color: #682C26; }
 
 .main_Casmiento {
   background-color: #682C26; }
   .main_Casmiento .card {
     background-color: #B4A699; }
   .main_Casmiento div img .card-img {
-    background-color: #682C26;
-    margin: auto;
-    height: 100vh; }
+    background-color: #682C26; }
 
 .main_Contacto {
   background-color: #B4A699;
