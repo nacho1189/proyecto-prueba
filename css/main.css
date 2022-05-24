@@ -77,9 +77,6 @@ header {
   background-color: #B4A699;
   margin-bottom: 15vh; }
 
-.main_Servicios {
-  background-color: #B4A699; }
-
 .main_Galeria div {
   background-color: #682C26; }
   .main_Galeria div a {
@@ -107,9 +104,11 @@ header {
       color: #B4A699;
       text-align: center; }
 
-.main_Servicios img.card-img-top {
-  background-color: #682C26;
-  margin: auto; }
+.main_Servicios {
+  background-color: #B4A699; }
+  .main_Servicios img.card-img-top {
+    background-color: #682C26;
+    margin: auto; }
 
 .quienes_Somos {
   background-color: #682C26; }

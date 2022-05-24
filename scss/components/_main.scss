@@ -57,11 +57,6 @@
 
 
 
-.main_Servicios{
-    background-color: $color-body-servicios;
-    
-}
-
 .main_Galeria{
     div {
         background-color: $color-principal-body;
@@ -103,6 +98,7 @@
 }
 
 .main_Servicios{
+    background-color: $color-body-servicios;
     img.card-img-top{
         background-color:$color-principal-body ;
         margin: auto;                    
